@@ -1,0 +1,63 @@
+Modificador var
+Da acceso al argumento del constructor dentro de los métodos de
+ la clase, y creará setters y getters para dicho argumento, de forma que podremos mutar ese campo.
+Modificador val
+Dará acceso al argumento dentro de los métodos de la clase como var, pero en
+ este caso no creará setter, de forma que dicho argumento será inmutable dentro y fuera de la clase.
+
+
+
+
+ Null Safety o !NPE en Kotlin
+ Una de las características mas importantes de Kotlin es el Null Safety. Kotlin esta construido para evitar los Null pointer exception.
+ En este vídeo vamos a ver las diferentes formas que podemos usar en Kotlin para utilizar al máximo esta importante característica.
+
+
+
+ Destructuring Declarations en Kotlin
+ Destructing declarations es una forma muy amigable que nos da Kotlin en la que podemos extraer
+ multiples valores de datos almacenados en objetos y Arrays. Veamos como se hace y cuales son las consecuencias de hacerlo.
+
+
+
+
+ Expresion Object y Singletons en Kotlin
+ En este video vamos a ver como crear Singletons en Kotlin, singleton es un patrón de software que nos permite tener
+ una instancia de un objeto que puede ser consultada y modificada desde cualquier parte del código.
+
+
+ Diferencias entre Kotlin y Java
+ Veamos algunas diferencias importantes que tenemos entre Kotlin y Java y que nos hacen ver que Kotlin.
+
+ Null Safety: Una de las principales diferencias es el Null Safety, es la forma en que Kotlin evita que caigamos en errores de objetos nulos.
+ Lambdas: Aunque en Java 8 y tenemos lambdas, la diferencia es que Kotlin desde que nació ya traía este patron de funcionalidad.
+ Data clases: en una sola linea resumimos el constructor, los getters y los setters.
+ High order functions: son lambdas en funciones, que nos ayudan a pensar fuera lo que estamos acostrumbrados.
+ Inline functions: definición de una función en solamente una linea.
+ Smart cast
+ Extension functions: darle mas capacidades a las clases que ya tenemos predeterminadas en Kotlin.
+
+
+ Qué son las lambdas
+
+ Una lambda es una maquina que tiene una función internamente pero podemos hacerla mas potente adicionando mas funcionalidad.
+
+
+
+ Funciones de orden mayor
+ Las funciones de orden mayor son funciones que viven dentro de otras
+  funciones, básicamente lo que hacemos es pasarle una función como parámetro a otra función.
+
+
+
+  Sealed Class
+  Sealed Class son clases que nos permiten contener clases que podemos reutilizar mas adelante para tomar decisiones.
+
+  Se declaran usando la palabra reservada sealed
+
+  Dentro de una Sealed Class solo puedo declarar otras clases.
+
+
+
+  Try, catch y manejo de excepciones en Kotlin
+  En Kotlin podemos hacer el manejo de errores en nuestros programas haciendo uso de Try, catch.
